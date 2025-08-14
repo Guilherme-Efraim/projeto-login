@@ -2,16 +2,77 @@
 
 * {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body, html {
-    background-color: rgb(37, 120, 175);
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(30, 187, 249), rgb(11, 78, 105));
 }
 
 main {
+    position: relative;
     margin: auto;
     width: 500px;
     height: 350px;
     border-radius: 10px;
     background-color: white;
+    background-image: url(../src/imagens/ChatGPT\ Image\ 14\ de\ ago.\ de\ 2025\,\ 11_16_59.png);
+    background-size: cover;
+}
+
+main > h1 {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    margin-top: 70px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.507);
+}
+
+form {
+    position: absolute;
+    padding: 10px;
+    top: 230px;
+    left: 120px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(to bottom, rgba(30, 187, 249, 0.431), rgb(17, 112, 149));
+}
+
+p.nome {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.597);
+    color: white;
+    font-weight: 800;
+    margin-left: 4px;
+    margin-bottom: 5px;
+}
+
+.boxnome {
+    height: 20px;
+    border-radius: 5px;
+}
+
+p.senha {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.597);
+    color: white;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.boxsenha {
+    height: 20px;
+    border-radius: 5px;
+}
+
+.entrar {
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    margin-left: 110px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.597);
+    background-color: rgba(3, 156, 251, 0.452);
 }
